@@ -169,13 +169,7 @@ const translations = {
     btnThemes: 'Explore Themes',
     btnContact: 'Participate',
 
-    // Countdown
-    countdownTitle: 'Time Remaining Until Abstract Submission Deadline',
-    cdDaysLabel: 'Days',
-    cdHoursLabel: 'Hours',
-    cdMinutesLabel: 'Minutes',
-    cdSecondsLabel: 'Seconds',
-    countdownExpired: 'Submission deadline has passed',
+   
 
     // About
     aboutTitle: 'About the Conference',
@@ -311,7 +305,6 @@ document.addEventListener('DOMContentLoaded', () => {
   if (pageName === 'home') {
     applyTheme(isDark);
     applyLanguage(currentLang);
-    initCountdown();
     initActiveNavLinks();
   }
 
